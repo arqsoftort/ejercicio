@@ -1,6 +1,8 @@
 package ejercicio;
 
-public class Usuario {
+import java.io.Serializable;
+
+public class Usuario implements Serializable {
     
     private Long id;
     private String nombre;
